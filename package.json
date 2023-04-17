@@ -28,8 +28,8 @@
   },
   "scripts": {
     "db": "rm -rf entities & npx typeorm-model-generator -h localhost -d lenqr -p 3307 -u gingerqu_insurance -x gingerqu_insurance -e mysql -o entities --noConfig false --ce pascal --cp camel",
-    "start": "ts-node src/index.ts",
-    "starter": "node dist/index.js",
+    "starter": "ts-node src/index.ts",
+    "start": "node dist/index.js",
     "nodemon": "nodemon"
   }
 }
